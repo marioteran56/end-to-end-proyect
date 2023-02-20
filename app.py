@@ -4,7 +4,7 @@ from prediction import predict
 from combined_attributes_adder import CombinedAttributesAdder
 
 st.title('Prediciendo el precio de una casa en California')
-st.markdown('Multiples modelos para la predicción de precios de casas en California...')
+st.markdown('Se tienen multiples modelos entrenados para la predicción de precios de casas en California, elige el modelo que quieras utilizar para predecir el precio de una casa en California.')
 
 st.header('Datos de la casa')
 col1, col2 = st.columns(2)
